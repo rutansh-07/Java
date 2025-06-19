@@ -18,3 +18,13 @@ public class C {
         s1.close(); // Close the Scanner to free resources
     }
 }
+
+/*   Output:
+    Enter the values:
+    Value of a[0]:1
+    Value of a[1]:2
+    Value of a[2]:3
+    Value of a[3]:4
+    Value of a[4]:5
+    The sum of all the elements of the array is: 15        
+*/
