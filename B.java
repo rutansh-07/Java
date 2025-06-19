@@ -1,3 +1,5 @@
+/*  Write a program in Java that takes 6 numbers from the user, stores them in an array, and then finds and prints the largest number among them. */
+
 import java.util.Scanner;
 
 // Main class named B
@@ -34,3 +36,23 @@ public class B {
         s1.close(); // Close the scanner to free up resources
     }
 }
+
+/*        Output:
+
+        Enter the value of a[0]: 1
+        Enter the value of a[1]: 2
+        Enter the value of a[2]: 3
+        Enter the value of a[3]: 4
+        Enter the value of a[4]: 5
+        Enter the value of a[5]: 6
+        The values you entered are:      
+        a[0] = 1
+        a[1] = 2
+        a[2] = 3
+        a[3] = 4
+        a[4] = 5
+        a[5] = 6
+        Maximum number in the array is: 6
+
+*/
+
