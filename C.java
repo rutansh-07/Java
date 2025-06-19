@@ -1,3 +1,5 @@
+/* Take value of array as input from the user and find the sum of all the elements of the array */
+
 import java.util.*; // Import the Scanner class for user input
 
 public class C {
