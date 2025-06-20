@@ -9,7 +9,7 @@ public class B {
         int a[] = new int[6];
 
         // Create a Scanner object to take input from the user
-        Scanner s1 = new Scanner(System.in);
+        try(Scanner s1 = new Scanner(System.in)){
 
         // Loop to get 6 numbers from the user and store them in the array
         for (int i = 0; i < a.length; i++) {
@@ -33,7 +33,8 @@ public class B {
 
         // Print the largest number entered by the user
         System.out.print("Maximum number in the array is: " + m);
-        s1.close(); // Close the scanner to free up resources
+        // s1.close(); // Close the scanner to free up resources
+    }
     }
 }
 
